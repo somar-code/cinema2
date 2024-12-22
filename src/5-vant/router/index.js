@@ -53,6 +53,10 @@ const routes = [
         component: ()=>import('../views/Cinemas.vue')
     },
     {
+        path: "/cinema",
+        component: ()=>import('../views/films/Nowplaying.vue')
+    },
+    {
         path: "/center",
         alias:"/wode",// 别名
         component: ()=>import('../views/Center.vue'),
