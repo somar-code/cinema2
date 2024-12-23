@@ -54,7 +54,7 @@ const routes = [
     },
     {
         path: "/cinema",
-        component: ()=>import('../views/films/Nowplaying.vue')
+        component: Nowplaying
     },
     {
         path: "/center",
